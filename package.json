@@ -1,0 +1,22 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "A project from sass and scss course",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass -w src/style/main.scss:styles/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmanuel/agency.git"
+  },
+  "author": "Joao Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusmanuel/agency/issues"
+  },
+  "homepage": "https://github.com/linusmanuel/agency#readme",
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
