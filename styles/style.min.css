@@ -3,8 +3,18 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-h1 {
-  color: red;
+p {
+  color: var(--primary);
+}
+
+body {
+  --primary: #595;
+  --light: #fff;
+  --dark: #181920;
+  --text: #8b8e94;
+  --dark-100: #000;
+  --bg-secondary: #e5eaff;
+  --bg-footer: #1d1d1d;
 }
 
 /*# sourceMappingURL=style.min.css.map */
