@@ -42,7 +42,16 @@
   align-items: center;
 }
 
-@mixin background($position: center, $size: cover) {
-  background-size: $size;
-  background-position: $position;
+@mixin background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin main-hover {
+  transition: .3s;
+
+  &:hover {
+    color: var(--primary);
+  }
 }
