@@ -1,0 +1,47 @@
+.services-container {
+  text-align: center;
+  padding: rem(32px);
+  margin-bottom: rem(32px);
+
+  h2 {
+    @extend %section-title;
+  }
+}
+
+.services-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: rem(32px);
+}
+
+.services-card {
+    width: 30%;
+    margin: 1%;
+    padding: rem(32px);
+    border: solid 1px #ccc;
+    transition: .3s;
+
+  i {
+    color: var(--primary);
+    font-size: rem(64px);
+    display: block;
+    margin-top: rem(16px);
+    margin-bottom: rem(24px);
+  }
+
+  h3 {
+    font-size: rem(24px);
+    margin-bottom: rem(16px);
+  }
+
+  p {
+    color: var(--text);
+  }
+
+  &:hover {
+    border: transparent;
+    box-shadow: $custom-box-shadow;
+    transform: scale(1.03);
+  }
+}
