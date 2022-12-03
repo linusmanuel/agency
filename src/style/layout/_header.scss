@@ -31,7 +31,7 @@
       }
     }
 
-    .fas {
+    .fas:not(:first-child)  {
       display: none;
       font-size: rem(32px);
       color: var(--light);
