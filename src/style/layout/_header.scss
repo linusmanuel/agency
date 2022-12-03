@@ -4,8 +4,8 @@
   height: 85vh;
 
   .nav-container {
-    @include padding-y(15px);
-    @include padding-x(20px);
+    @include padding-y(20px);
+    @include padding-x(32px);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -14,6 +14,33 @@
     width: 100%;
     background-color: var(--dark-100);
     z-index: 10;
+
+    &-navbar {
+      @include centralized;
+      justify-content: space-between;
+
+      li {
+        @include margin-y(5px);
+        @include margin-x(10px);
+        height: 100%;
+      }
+
+      a {
+        @include main-hover;
+        color: var(--light);
+      }
+    }
+
+    .fas {
+      display: none;
+      font-size: rem(32px);
+      color: var(--light);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
   }
 
   .brand {

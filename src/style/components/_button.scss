@@ -1,0 +1,30 @@
+.btn {
+  padding: .6rem rem(16px);
+  border: solid 1px var(--light);
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: .3s;
+  color: var(--light);
+
+  &:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: var(--light);
+  }
+
+  &-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  &--rounded {
+    @include padding-y(16px);
+    @include padding-x(24px);
+    margin-top: rem(16px);
+    border-radius: rem(32px);
+  }
+}
