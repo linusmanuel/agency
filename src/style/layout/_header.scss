@@ -48,4 +48,24 @@
     color: var(--light);
     font-size: rem(32px);
   }
+
+  .title-container {
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    h1 {
+      font-size: rem(64px);
+      text-shadow: $title-shadow;
+      margin-top: rem(16px);
+    }
+
+    h2 {
+      font-size: rem(48px);
+      text-shadow: $title-shadow;
+    }
+  }
 }

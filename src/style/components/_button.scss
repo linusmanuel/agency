@@ -9,7 +9,7 @@
   &:hover {
     border-color: var(--primary);
     background-color: var(--primary);
-    color: var(--light);
+    color: var(--primary);
   }
 
   &-primary {
@@ -18,10 +18,11 @@
 
     &:hover {
       background-color: transparent;
+      color: var(--light);
     }
   }
 
-  &--rounded {
+  &-rounded {
     @include padding-y(16px);
     @include padding-x(24px);
     margin-top: rem(16px);
