@@ -64,16 +64,25 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    text-align: center;
 
     h1 {
       font-size: rem(64px);
       text-shadow: $title-shadow;
       margin-top: rem(16px);
+
+      @include mobile {
+        font-size: rem(48px);
+      }
     }
 
     h2 {
       font-size: rem(48px);
       text-shadow: $title-shadow;
+
+      @include mobile {
+        font-size: rem(32px);
+      }
     }
   }
 }

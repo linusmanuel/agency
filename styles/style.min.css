@@ -97,15 +97,26 @@ li {
   align-items: center;
   justify-content: center;
   height: 100%;
+  text-align: center;
 }
 #main-banner .title-container h1 {
   font-size: 4rem;
   text-shadow: 3px 2px var(--dark-100);
   margin-top: 1rem;
 }
+@media (max-width: 568px) {
+  #main-banner .title-container h1 {
+    font-size: 3rem;
+  }
+}
 #main-banner .title-container h2 {
   font-size: 3rem;
   text-shadow: 3px 2px var(--dark-100);
+}
+@media (max-width: 568px) {
+  #main-banner .title-container h2 {
+    font-size: 2rem;
+  }
 }
 
 footer {
@@ -351,6 +362,7 @@ footer .footer-copy-right-container p {
 @media (max-width: 568px) {
   .jobs-container .jobs-list .job-card {
     width: 100%;
+    margin-right: 0;
   }
 }
 .jobs-container .jobs-list .other-jobs-container {
