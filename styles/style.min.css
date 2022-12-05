@@ -45,6 +45,11 @@ li {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 568px) {
+  #main-banner .nav-container-navbar {
+    display: none;
+  }
+}
 #main-banner .nav-container-navbar li {
   margin-block: 5px;
   margin-inline: 10px;
@@ -61,6 +66,11 @@ li {
   display: none;
   font-size: 2rem;
   color: var(--light);
+}
+@media (max-width: 568px) {
+  #main-banner .nav-container .fas:not(:first-child) {
+    display: block;
+  }
 }
 #main-banner .nav-container nav {
   display: flex;
@@ -186,6 +196,12 @@ footer .footer-copy-right-container p {
   padding: 2rem;
   border: solid 1px #ccc;
   transition: 0.3s;
+  min-width: 18.75rem;
+}
+@media (max-width: 568px) {
+  .services-card {
+    margin-bottom: 1.25rem;
+  }
 }
 .services-card i {
   color: var(--primary);

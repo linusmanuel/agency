@@ -19,6 +19,10 @@
       @include centralized;
       justify-content: space-between;
 
+      @include mobile {
+        display: none;
+      }
+
       li {
         @include margin-y(5px);
         @include margin-x(10px);
@@ -35,6 +39,10 @@
       display: none;
       font-size: rem(32px);
       color: var(--light);
+
+      @include mobile {
+        display: block;
+      }
     }
 
     nav {

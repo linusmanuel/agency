@@ -21,6 +21,11 @@
     padding: rem(32px);
     border: solid 1px #ccc;
     transition: .3s;
+    min-width: rem(300px);
+
+    @include mobile {
+      margin-bottom: rem(20px);
+    }
 
   i {
     color: var(--primary);
