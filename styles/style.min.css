@@ -233,9 +233,19 @@ footer .footer-copy-right-container p {
   background-color: var(--bg-secondary);
   padding: 3rem;
 }
+@media (max-width: 568px) {
+  .jobs-container {
+    padding: 1rem;
+  }
+}
 .jobs-container .jobs-list {
   padding-block: 32px;
   display: flex;
+}
+@media (max-width: 568px) {
+  .jobs-container .jobs-list {
+    display: block;
+  }
 }
 .jobs-container .jobs-list .job-card-cover {
   height: 100%;
@@ -247,6 +257,11 @@ footer .footer-copy-right-container p {
   background-color: rgba(0, 0, 0, 0.6);
   border: solid 3px var(--primary);
 }
+@media (max-width: 568px) {
+  .jobs-container .jobs-list .job-card-cover {
+    padding-top: 0;
+  }
+}
 .jobs-container .jobs-list .job-card-cover-title {
   text-align: center;
   color: var(--light);
@@ -254,38 +269,66 @@ footer .footer-copy-right-container p {
   transition: 0.5s;
   font-weight: 700;
 }
+@media (max-width: 568px) {
+  .jobs-container .jobs-list .job-card-cover-title {
+    font-size: 1.5rem;
+  }
+}
 .jobs-container .jobs-list .job-card-description {
   text-align: center;
   color: var(--light);
   padding: 1rem;
+}
+@media (max-width: 998px) {
+  .jobs-container .jobs-list .job-card-description {
+    max-width: 350ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 .jobs-container .jobs-list .first-job {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 30%;
-  height: 25.9375rem;
+  height: 28.5rem;
   background-image: url("/src/images/job1.jpg");
   cursor: pointer;
   position: relative;
   margin-bottom: 0.9375rem;
   margin-right: 0.9375rem;
 }
+@media (max-width: 568px) {
+  .jobs-container .jobs-list .first-job {
+    width: 100%;
+  }
+}
 .jobs-container .jobs-list .job-card {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 46%;
-  height: 12.5rem;
+  height: 13.75rem;
   position: relative;
   cursor: pointer;
   margin-bottom: 0.9375rem;
   margin-right: 0.9375rem;
 }
+@media (max-width: 568px) {
+  .jobs-container .jobs-list .job-card {
+    width: 100%;
+  }
+}
 .jobs-container .jobs-list .other-jobs-container {
   display: flex;
   flex-wrap: wrap;
   width: 68%;
+}
+@media (max-width: 568px) {
+  .jobs-container .jobs-list .other-jobs-container {
+    width: 100%;
+  }
 }
 .jobs-container .jobs-list .other-jobs-container #job2 {
   background-image: url("/src/images/job2.jpg");
