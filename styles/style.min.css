@@ -19,6 +19,12 @@ li {
   margin-top: 2rem;
   text-align: center;
 }
+@media (max-width: 568px) {
+  .jobs-container h2, .services-container h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}
 
 #main-banner {
   background-size: cover;
