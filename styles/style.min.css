@@ -202,16 +202,19 @@ footer .footer-copy-right-container p {
 }
 
 .btn {
+  background-color: transparent;
   padding: 0.6rem 1rem;
   border: solid 1px var(--light);
   text-transform: uppercase;
   border-radius: 5px;
   transition: 0.3s;
   color: var(--light);
+  cursor: pointer;
 }
 .btn:hover {
   border-color: var(--primary);
   background-color: var(--primary);
+  color: var(--light);
 }
 .btn-primary {
   background-color: var(--primary);

@@ -1,14 +1,17 @@
 .btn {
+  background-color: transparent;
   padding: .6rem rem(16px);
   border: solid 1px var(--light);
   text-transform: uppercase;
   border-radius: 5px;
   transition: .3s;
   color: var(--light);
+  cursor: pointer;
 
   &:hover {
     border-color: var(--primary);
     background-color: var(--primary);
+    color: var(--light);
   }
 
   &-primary {
