@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/linusmanuel/agency#readme",
   "dependencies": {
+    "live-server": "^1.2.2",
     "sass": "^1.56.1"
   }
 }
