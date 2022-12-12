@@ -7,7 +7,8 @@
 
 ## 🚀 More details!
 
-📲 <a href="https://https://linus-agency.netlify.app/" target="_blank">See the remote project on Netlify</a>
+📲 <a href="https://linus-agency.netlify.app/" target="_blank">See the remote project on Netlify</a>
+🎬 <a href="https://youtu.be/ESP1ErA3gvE" target="_blank"> Watch the project's video on youtube</a>
 
 
 ### 📋 Instructions for running the project
